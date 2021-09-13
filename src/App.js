@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import * as React from "react";
+import { Typography, Button } from "@material-ui/core";
 
 function App() {
+  const callback = React.useCallback(() => {
+    console.log("Button Clicked");
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Typography variant="h1">Cypress testing examples</Typography>
+      <Typography varian="h3"> Buttons</Typography>
+      <Button onClick={callback}>Click me!</Button>
     </div>
   );
 }
