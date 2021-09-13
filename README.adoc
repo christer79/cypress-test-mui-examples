@@ -21,7 +21,17 @@ Create _cypress.json_
     "componentFolder": "src"
 }
 
+== ESLINT to allow for cy 
+
+https://github.com/cypress-io/eslint-plugin-cypress[eslint-plugin-cypress]
+
+[listing]
+yarn add eslint-plugin-cypress --de
+
+
 = Use the project
+
+
 
 == Drive test with cypress examples
 
