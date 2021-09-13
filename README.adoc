@@ -1,0 +1,38 @@
+= Setup
+
+== Create project
+
+[listing]
+npx create-react-app cypress-test-control
+cd cypress-test-control
+npm install @material-ui/core
+
+== Cypress
+
+[listing]
+yarn add cypress @cypress/react @cypress/webpack-dev-server --dev
+
+Create _cypress.json_
+
+[listing]
+{
+  "component": {
+    "testFiles": "**/*.test.{js,ts,jsx,tsx}",
+    "componentFolder": "src"
+}
+
+= Use the project
+
+== Drive test with cypress examples
+
+Type text in input
+
+Click Button
+
+Find text in input
+
+Assert on text to exists
+
+Assert on component not to exists
+
+Find text in list
