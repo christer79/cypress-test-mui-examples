@@ -12,3 +12,7 @@
 === List 
 
 === Checkbox
+
+=== Dialogs
+
+=== Switches
