@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -41,7 +42,6 @@
     "@cypress/webpack-dev-server": "^1.6.0",
     "cypress": "^8.3.1",
     "eslint-plugin-cypress": "^2.11.3",
-    "eslint-plugin-react": "^7.25.1",
-    "webpack-dev-server": "^4.2.0"
+    "eslint-plugin-react": "^7.25.1"
   }
 }
